@@ -413,7 +413,7 @@ class SIMPBLV_Settings {
 	 */
 	public static function get_settings() {
 		$saved = get_option( self::OPTION_NAME, array() );
-		return array_merge( self::get_default_settings(), $saved );
+		return array_merge( self::get_default_settings(), (array) $saved );
 	}
 
 	/**
