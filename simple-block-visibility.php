@@ -4,7 +4,7 @@
  * Plugin Name: Simple Block Visibility
  * Plugin URI: https://github.com/valentin-grenier/simple-block-visibility
  * Description: Show or hide Gutenberg blocks based on custom breakpoints.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Tested up to: 6.9
@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SIMPBLV_VERSION', '1.0.0' );
+define( 'SIMPBLV_VERSION', '1.0.1' );
 define( 'SIMPBLV_PATH', plugin_dir_path( __FILE__ ) );
 define( 'SIMPBLV_URL', plugin_dir_url( __FILE__ ) );
 
